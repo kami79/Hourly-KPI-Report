@@ -1,0 +1,12 @@
+# Core Data & Engine
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database Connectivity
+pyodbc>=4.0.35
+
+# Executive PDF Reporting
+reportlab>=4.0.0
+
+# Environment Configuration
+python-dotenv>=1.0.0

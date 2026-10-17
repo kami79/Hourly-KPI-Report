@@ -1,0 +1,42 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Sensitive Configurations & Backups
+config/config.json
+AppVersions/
+*.env
+*.pem
+*.key
+
+# Application Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Generated Outputs & Large Data Files
+output/*
+!output/.gitkeep
+AI_Data/anomalies/
+*.csv
+*.xlsx
+*.parquet
+*.db-wal
+*.db-shm
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Export Package
+ready_to_upload_for_github/
